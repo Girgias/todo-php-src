@@ -50,6 +50,8 @@ Some ideas might require RFC which I may or may not have already marked down as 
     - [ ] `./php_http.c` 
     - [ ] Check `to_xml_hexbin()`
   - [ ] Check related  ext/session `bin_to_readable()` function
+- [ ] Review usage of forced casts (see [php-tasks issue](https://github.com/php/php-tasks/issues/32))
+- [ ] Review validation of INI settings (see [php-tasks issue](https://github.com/php/php-tasks/issues/31))
 
 ## Investigations/review
 
