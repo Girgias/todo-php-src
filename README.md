@@ -27,10 +27,14 @@ Some ideas might require RFC which I may or may not have already marked down as 
   - [ ] Deprecate not passing the `allowed_classes` option
   - [ ] Option for enabling or not the autoloader
   - [ ] Deprecate INI setting after option has been introduced
-- [ ] Make `PHP_Incomplete` object not cloneable
+- [ ] `__PHP_Incomplete_Class`
+  - [ ] Prevent instantiation in userland
+  - [ ] Disable cloning
 - [ ] Promote warnings to `Error` in `PHP_Incomplete` object handlers
 - [ ] Remove `disable_classes` INI setting (see: [PR](https://github.com/php/php-src/pull/12043))
 - [ ] Warn when attempting to cast non finite float values to something else (i.e. `NAN`, `INF`, `-INF`)
+- [ ] Reflection:
+  - [ ] Split ReflectionClass into RelfectionClass, ReflectionInterface, and ReflectionTrait (bunch of methods do not make sense for each individual type)
 
 ## Code quality
 
