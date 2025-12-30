@@ -14,7 +14,7 @@ Some ideas might require RFC which I may or may not have already marked down as 
 ## Behavioural changes
 
 - [ ] Throw ValueError for `log()` with base = 1 instead of returning NAN
-- [ ] Fix zval_compare() semantics so that `array_diff()` and `array_intersect()` are better bheaved
+- [ ] Fix zval_compare() semantics so that `array_diff()` and `array_intersect()` are better behaved
 - [ ] Do bound checking on `time_t` and `timeval` struct members, see [GH-16246](https://github.com/php/php-src/pull/16246) for an example
 - [ ] ValueError for `scandir()` on invalid sort orders
 - [ ] ValueError for I/O functions when an empty path is provided
